@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuzzleGenie 🧞</title>
+</head>
+<body>
+    <hr >
+    <h1 style="padding-top: 40px;">Welcome to the World of  PuzzleGenie 🧞</h1>
+    <img  class="sudoku" src="/static/sudoki.png">
+    <img class="maze" src="/static/maze.png">
+    <img class="wordsearch" src="/static/wordsearch.png">
+    <img  class="num" src="/static/num grid.png">
+    <p>Select a puzzle to play:</p>
+    <form method="get" action="/puzzle">
+        <button name="type" value="wordsearch"> Click here  to generate Word Search</button><br>
+        <button name="type" value="sudoku"> Click here  to generate Sudoku</button><br>
+        <button name="type" value="maze">Click here  to generate Maze</button><br>
+        <button name="type" value="numbergrid">Click here  to generate Number Grid</button>
+    </form>
+   
+    <hr>
+</body>
+</html>
+                   

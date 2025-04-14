@@ -1,0 +1,210 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0db9ee;
+}
+
+input[type="text"] {
+    padding: 6px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+body {
+    background: linear-gradient(to bottom right, #e0f7fa, #fff);
+    font-family: 'Segoe UI', sans-serif;
+}
+/* General page styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Header */
+h1 {
+    font-size: 2.8rem;
+    color: #1a237e;
+    margin-bottom: 10px;
+}
+
+/* Rules paragraph */
+p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+/* Puzzle box container */
+div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Puzzle grid (optional style if it's in table form) */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #90caf9;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #43a047;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+strong {
+    font-size: 1.2rem;
+    color: #d32f2f;
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+pre {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    white-space: pre;
+    background-color: #f0f4c3;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 5vw; /* responsive font size */
+}
+
+/* Maze Grid Table */
+.maze-grid {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;  /* keeps it readable on desktop */
+}
+
+.maze-grid td {
+    width: 10vw;   /* use % or vw for mobile resizing */
+    height: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #333;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+/* Colors */
+.wall {
+    background-color: black;
+}
+.path {
+    background-color: white;
+}
+.start {
+    background-color: green;
+}
+.end {
+    background-color: red;
+}
+.maze-grid {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.maze-grid td {
+    width: 30px;    /* Set width to make cells smaller */
+    height: 20px;   /* Set height to reduce the maze's height */
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc; /* Add border for visibility */
+}
+
+.wall {
+    background-color: black;
+}
+
+.start {
+    background-color: green;
+    color: white;
+}
+
+.end {
+    background-color: red;
+    color: white;
+}
+
+.path {
+    background-color: white;
+}
+
+
+
+  
