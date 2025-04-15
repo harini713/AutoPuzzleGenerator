@@ -75,7 +75,7 @@ def get_sudoku():
     solution_html = sudoku_to_html(solution_board)
     
     return {
-        "rules": "Fill in the grid with digits from 1 to 9. Each row, column, and 3x3 subgrid must contain each digit exactly once.",
+        "rules": "Fill in the grid with digits from 1 to 9. Each row, column, and 9x9 subgrid must contain each digit exactly once.",
         "html": table_html,
         "solution_html": solution_html,
         "solution": solution_board,
